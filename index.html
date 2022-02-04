@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<title>Restaurant</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+	<link href="https://fonts.cdnfonts.com/css/banny" rel="stylesheet">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+	<div class="head__wrapper"></div>
+	<div class="header__container _container">
+		<div class="icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+			<nav class="header__nav">
+				<div class="header__list">
+					<ul class="header__list-container menu__body">
+						<li class="nav__list__item">
+							<a data-goto=".header" href="#" class="nav__link">Home</a>
+						</li>
+						<li class="nav__list__item">
+							<a data-goto=".section__about-us" href="#" class="nav__link">About</a>
+						</li>
+						<li class="nav__list__item">
+							<a data-goto=".section__our-team" href="#" class="nav__link">Team</a>
+						</li>
+						<li class="nav__list__item">
+							<a data-goto=".section__order-table" href="#" class="nav__link">Booking</a>
+						</li>
+					</ul>
+					<a href="" class="header__logo">
+						<img class="header__logo-img _anim-items _anim-no-hide" src="img/header/logo.svg" alt="logo">
+					</a>
+					<ul data-da=".menu__body,768,4" class="header__list-container__right">
+						<li class="nav__list__item">
+							<a data-goto=".section__menu" href="#" class="nav__link">Menu</a>
+						</li>
+						<li class="nav__list__item">
+							<a data-goto=".section__photo-gallery" href="#" class="nav__link">Galerie</a>
+						</li>
+						<li class="nav__list__item">
+							<a data-goto=".section__private-events" href="#" class="nav__link">Events</a>
+						</li>
+						<li class="nav__list__item">
+							<a data-goto=".section__contacts" href="#" class="nav__link">Contact</a>
+						</li>
+					</ul>
+					<div class="container__hero-arrow">
+						<span class="hero-arrow"></span>
+						<div class="hero-arrow__container"></div>
+					</div>
+				</div>
+			</nav>		
+	</div>
+	<div class="hero _container">
+    <p class="hero-date">
+        Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+    </p>
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">Restaurant</h1>
+            <div class="hero-content-group">
+                <h2 class="hero-subtitle _anim-items _anim-no-hide">
+                    Hungry people
+                </h2>
+                <div class="hero-subtitle__element"></div>
+            </div>
+            <span class="btn__hero">
+                <button type="button" class="hero-btn _table">
+                    BOOK TABLE
+                </button>
+                <button type="button" class="hero-btn _explore">
+                    EXPLORE
+                </button>
+            </span>
+            <button type="button" class="hero-btn__downBtn" onClick="toggleFullScreen()">
+                <img class="downBtn__hero-btn" src="img/header/downBtn.svg" alt="downBtn">
+            </button>
+        </div>
+        <ul data-da=".hero-arrow__container,667,0" class="hero-list">
+            <li class="hero-list__social">
+                <a href="https://www.facebook.com/" rel="nofollow" target="_blank" class="hero-list__link">
+                    <img class="hero-list__icon _facebook" src="img/header/facebook.svg" width="60" height="60" alt="facebook">
+                </a>
+            </li>
+            <li class="hero-list__social">
+                <a href="https://twitter.com/" rel="nofollow" target="_blank" class="hero-list__link">
+                    <img class="hero-list__icon _twitter" src="img/header/twitter.svg" width="60" height="60" alt="twitter">
+                </a>
+            </li>
+            <li class="hero-list__social">
+                <a href="https://www.instagram.com/" rel="nofollow" target="_blank" class="hero-list__link">
+                    <img class="hero-list__icon _instagram" src="img/header/instagram.svg" width="60" height="60" alt="instagram">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</header>
+			<main class="page">
+				<section class="section">
+    <div class="section__about-us _container">
+        <div class="about-us__description">
+            <div class="about-us__description-group">
+                <h2 class="about-us__description-title _anim-items _anim-no-hide">about us</h2>
+                <div class="about-us__description-title__element"></div>
+            </div>
+            <div class="about-us__container-text">
+                <p class="about-us__description-text _anim-items _anim-no-hide">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span>
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum,
+                    enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+                    pharetra. Nulla facilisis semper laoreet.
+                </p>
+            </div>
+        </div>
+        <div class="img__about-us__container _anim-items _anim-no-hide">
+            <img class="section__about-us__img" src="img/aboutUs/about-img.jpg" width="475" height="475" alt="about-img">
+        </div>
+    </div>
+</section>
+				<section class="_section__line section__our-team _anim-items _anim-no-hide">
+    <h2 class="section__our-team_title _title__line">our team</h2>
+    <div class="our-team__section _container">
+        <div class="img__our-team__container _anim-items _anim-no-hide">
+            <img class="img__our-team" src="img/ourTeam/about-img.jpg" width="475" height="475" alt="about-img">
+        </div>
+            <div class="our-team__description">
+                <div class="our-team__description-group">
+                    <h2 class="our-team__description-title _anim-items _anim-no-hide">MASTER CHEF</h2>
+                    <div class="our-team__description-title__element"></div>
+                </div>
+                <div class="our-team__container-text _anim-items _anim-no-hide">
+                    <p class="our-team__description-text _animation-playback">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                            magna.</span>
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum,
+                        enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+                        feugiat diam convallis
+                        pharetra. Nulla facilisis semper laoreet.
+                    </p>
+                </div>
+            </div>
+    </div>
+</section>
+				<section class="section section__order-table">
+    <div class="order-table__section _container">
+        <div class="order-table__container _anim-items _anim-no-hide">
+            <div class="order-table__container-group">
+                <h2 class="order-table__title">book a table</h2>
+                <div class="order-table__title__element"></div>
+            </div>
+            <form action="#" class="order-table__form form">
+                <div class="order-table__form-data">
+                    <input type="text" class="order-table__form-input _req" data-value="Name" data-error="Введите свое имя" name="user-name" id="user-name"/>
+                    <label for="user-name" class="order-table__form-label label">Name</label>
+                </div>
+                <div class="order-table__form-data">
+                    <input type="text" class="order-table__form-input _email _req" data-value="Email" data-error="Введите коректный email" name="email" id="email"/>
+                    <label for="email" class="order-table__form-label label">Email</label>
+                </div>
+                <div class="order-table__form-data">
+                    <input type="text" class="order-table__form-input _phone" data-value="Phone" data-error="Введите коректный номер телефона" name="phone" id="phone"/>
+                    <label for="phone" class="order-table__form-label label">Phone</label>
+                </div>
+                <div class="order-table__form-data">
+                    <input type="text" class="order-table__form-input _digital _req" data-value="People" data-error="Укажите количество посетителей" name="people" id="people"/>
+                    <label for="people" class="order-table__form-label label">People</label>
+                </div>
+                <div class="order-table__form-data">
+                    <input type="text" class="order-table__form-input _date _req" data-value="Date (mm/dd)" data-error="Укажите дату бронирования" name="date" id="date"/>
+                    <label for="date" class="order-table__form-label"></label>
+                </div>
+                <div class="order-table__form-data">
+                    <input type="time" min="09:00" max="22:00" class="order-table__form-input _req" data-value="Time" data-error="Укажите время бронирования с 9:00 до 22:00" name="time" id="time"/>
+                    <label for="time" class="order-table__form-label"></label>
+                </div>
+                <button type="submit" class="order-table__form-btn button">BOOK NOW</button>
+            </form>
+        </div>
+        <div class="img__order-table__container _anim-items _anim-no-hide">
+            <img class="img__order-table" src="img/orderTable/about-img.jpg" width="475" height="475" alt="about-img">
+        </div>
+    </div>
+    <p class="time__order-table">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, <span>Phone: <a href="tel:+40729131637">+40 729 131 637</a>/<a href="tel:+40726458782">+40 726 458 782</a></span></p>
+</section>
+				<section class="section__specialties _section__line _anim-items _anim-no-hide">
+    <h2 class="section__specialties-title _title__line">specialties</h2>
+    <!-- <div class="specialties__section _container"> -->
+        <div class="slider _swiper _anim-items _anim-no-hide">
+            <div class="slider__slide">
+                <img class="img__specialties" src="img/specialties/dessert.jpg" width="475" height="475" alt="about-img">
+                <div class="specialties__description">
+                    <div class="specialties__description-group">
+                        <h2 class="specialties__description-title">chocolate pancakes</h2>
+                        <div class="specialties__description-title__element"></div>
+                    </div>
+                    <p class="specialties__description-text">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                            magna.</span>
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                        Morbi non ultrices ligula. Sed
+                        dictum,
+                        enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+                        tincidunt
+                        feugiat diam convallis
+                        pharetra. Nulla facilisis semper laoreet.
+                    </p>
+                </div>
+            </div>
+            <div class="slider__slide">
+                <img class="img__specialties" src="img/specialties/dessert2.jpg" width="475" height="475" alt="about-img">
+                <div class="specialties__description">
+                    <div class="specialties__description-group">
+                        <h2 class="specialties__description-title">tiramisu</h2>
+                        <div class="specialties__description-title__element"></div>
+                    </div>
+                    <p class="specialties__description-text">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                            magna.</span>
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                        Morbi non ultrices ligula. Sed
+                        dictum,
+                        enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+                        tincidunt
+                        feugiat diam convallis
+                        pharetra. Nulla facilisis semper laoreet.
+                    </p>
+                </div>
+            </div>
+            <div class="slider__slide">
+                <img class="img__specialties" src="img/specialties/dessert3.jpg" width="475" height="475" alt="about-img">
+                <div class="specialties__description">
+                    <div class="specialties__description-group">
+                        <h2 class="specialties__description-title">chocolate dessert with strawberries</h2>
+                        <div class="specialties__description-title__element"></div>
+                    </div>
+                    <p class="specialties__description-text">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                            magna.</span>
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                        Morbi non ultrices ligula. Sed
+                        dictum,
+                        enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+                        tincidunt
+                        feugiat diam convallis
+                        pharetra. Nulla facilisis semper laoreet.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-quality__pagging"></div>
+    <!-- </div> -->
+</section>
+				<section class="section section__menu">
+    <div class="menu__section _container _anim-items">
+        <div class="menu__section-animation">
+            <div class="menu__description">
+                <div class="menu__description-group">
+                    <h2 class="menu__description-title">delicious menu</h2>
+                    <div class="menu__description-title__element"></div>
+                </div>
+                <p class="menu__description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                    molestie est a, tempor magna.</p>
+            </div>
+            <nav class="nav-menu__list">
+                <ul class="menu__list">
+                    <li data-f='menu' class="menu__list-item active">
+                        MENU
+                    </li>
+                    <li data-f='soupe' class="menu__list-item">
+                        SOUPE
+                    </li>
+                    <li data-f='pizza' class="menu__list-item">
+                        PIZZA
+                    </li>
+                    <li data-f='pasta' class="menu__list-item">
+                        PASTA
+                    </li>
+                    <li data-f='desert' class="menu__list-item">
+                        DESERT
+                    </li>
+                    <li data-f='wine' class="menu__list-item">
+                        WINE
+                    </li>
+                    <li data-f='beer' class="menu__list-item">
+                        BEER
+                    </li>
+                    <li data-f='drinks' class="menu__list-item">
+                        DRINKS
+                    </li>
+                </ul>
+            </nav>
+            <ul class="list__menu">
+                <li class="list-item__menu pizza">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu desert">DESERT CRANAHAN . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu wine">WINE CUZUMANO . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu pasta">PASTA CAMPANELLE . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu drinks">DRINK COCOA . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu pasta">PASTA ANGEL HAIR . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu wine">WINE MARQUEZ DE RISCAL . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu soupe">SOUPE HALASLE . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu beer">BEER LEFFE . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu pizza">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu drinks">DRINK COFFE . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu soupe">SOUPE HALASLE . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu beer">BEER HEINEKEN . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu soupe">SOUPE BI-HUNG . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu desert">DESERT CHEESECAKE . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu pizza">PIZZA QUATRO STAGIONI . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu desert">DESERT CHERRY PIE . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu beer">BEER GRIMBERGEN . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu pasta">PASTA BUCATINI . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu soup">FISH SOUP . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+                <li class="list-item__menu wine">WINE CATENA ZAPATA . . . . 55,68 USD
+                    <span>Integer ullamcorper neque eu purus euismod</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+				<section class="_section__line section__private-events">
+    <h2 class="section__private-events_title _title__line">private events</h2>
+    <div class="private-events__section _container _anim-items _anim-no-hide">
+        <div class="private-events__card _left-card _anim-items _anim-no-hide">
+            <img class="img__private-events" src="img/privateEvents/weddings.png" width="475" height="474" alt="widdings">
+            <h3 class="discription__title">weddings <span></span></h3>
+        </div>
+        <div class="private-events__card _right-card _anim-items _anim-no-hide">
+            <img class="img__private-events" src="img/privateEvents/corporatePaties.png" width="475" height="474" alt="widdings">
+            <h3 class="discription__title _corporate">corporate parties</h3>
+        </div>
+    </div>
+    <p class="private-events__info">For private events please call: <a href="tel:+40729131637">+40 729 131 637</a>/<a href="tel:+40726458782">+40 726 458 782</a> or use the contact form.</p>
+</section>
+				<div class="section section__photo-gallery _gallery">
+    <div class="photo__gallery-block">
+        <a href="img/photoGalerie/foto-1-2X.jpg" class="photo__gallery-item">
+            <img class="photo-gallery__img" src="img/photoGalerie/foto-1.jpg" width="360" height="360" alt="foto-1">
+        </a>
+    </div>
+    <a href="img/photoGalerie/foto-2-2X.jpg" class="photo__gallery-item">
+        <img class="photo-gallery__img" src="img/photoGalerie/foto-2.jpg" width="360" height="360" alt="foto-2">
+    </a>
+    <a href="img/photoGalerie/foto-3-2X.jpg" class="photo__gallery-item">
+        <img class="photo-gallery__img" src="img/photoGalerie/foto-3.jpg" width="360" height="360" alt="foto-3">
+    </a>
+    <a href="img/photoGalerie/foto-4-2X.jpg" class="photo__gallery-item">
+        <img class="photo-gallery__img" src="img/photoGalerie/foto-4.jpg" width="360" height="360" alt="foto-4">
+    </a>
+</div>
+				<section class="section section__contacts">
+    <div class="contacts__section _container">
+        <div class="contacts__description">
+            <div class="contacts__description-group">
+                <h2 class="contacts__description-title">contact</h2>
+                <div class="contacts__description-title__element"></div>
+            </div>
+            <p class="contacts__description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                molestie est a, tempor magna.</p>
+        </div>
+        <form class="contacts__form form" action="#">
+            <div class="contacts__form-info">
+                <div class="contacts__form-data">
+                    <input type="text" class="contacts__form-input" data-value="Name" name="user-name" id="user-name"/>
+                    <label for="user-name" class="contacts__form-label label">Name</label>
+                </div>
+                <div class="contacts__form-data">
+                    <input type="text" class="contacts__form-input _email _req" data-value="Email" data-error="Введите коректный email" name="email" id="email"/>
+                    <label for="email" class="contacts__form-label label">Email</label>
+                </div>
+                <div class="contacts__form-data">
+                    <input type="text" class="contacts__form-input _phone" data-value="Phone" name="phone" id="phone"/>
+                    <label for="phone" class="contacts__form-label label">Phone</label>
+                </div>
+            </div>
+            <div class="contacts__form-message">
+                <textarea class="contacts__form-message__textarea" data-value="Message" name="message" id="message" rows="10"></textarea>
+                <label for="message" class="contacts__form-message__label"></label>
+            </div>
+            <div class="contacts__form-content">
+            <ul class="contacts__form-contentInfo">
+                <li data-da=".menu__body,624,5" class="contacts__form-contentInfo-item">
+                    <a class="contacts__form-contentInfo-link _location" href="#"><img class="email" src="./img/contacts/icons/geolocation.svg" alt="geolocation">5th London Boulevard, U.K.</a>
+                </li>
+                <li class="contacts__form-contentInfo-item">
+                    <a class="contacts__form-contentInfo-link" href="tel:+40729131637"><img class="phone" src="./img/contacts/icons/phone.svg" alt="phone">+40 729 131 637</a><p>/</p><a class="contacts__form-contentInfo-link" href="tel:+40726458782">+40 726 458 782</a>
+                </li>
+                <li data-da=".menu__body,624,9" class="contacts__form-contentInfo-item">
+                    <a class="contacts__form-contentInfo-link _mailadress" href="mailto:office@mindblister.com"><img class="email" src="./img/contacts/icons/envelope.svg" alt="envelope">office@mindblister.com</a>
+                </li>
+            </ul>
+            <button type="submit" class="contacts__form-btn button">SEND MESSAGE</button>
+            </div>
+        </form>
+    </div>
+</section>
+				<div class="section section__maps">
+    <div id="map" class="maps__section _container"></div>
+</div>
+			</main>
+			<footer class="footer">
+	<div class="footer__container _container">
+		<p class="footer__copyright">© Copyright Mindblister 2021</p>
+	</div>
+</footer>
+		</div>
+		<div class="popup popup_popup">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
