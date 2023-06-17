@@ -3182,7 +3182,7 @@ html._touch .container__hero-arrow._active .hero-arrow {
   flex-direction: column;
   margin-left: 30px;
   margin-right: 80px;
-  transform: translate(-120%, 0px);
+  transform: translate(-200%, 0px);
   transition: all 1s ease 2.5s;
 }
 .order-table__container._active {
@@ -3373,8 +3373,8 @@ html._touch .container__hero-arrow._active .hero-arrow {
 .img__order-table__container::after {
   content: "";
   position: absolute;
-  top: 37%;
-  right: 3.5%;
+  top: 33.5%;
+  right: 0.5%;
   width: 226px;
   height: 226px;
   background: 1;
