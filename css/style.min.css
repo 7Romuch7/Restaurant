@@ -3373,8 +3373,8 @@ html._touch .container__hero-arrow._active .hero-arrow {
 .img__order-table__container::after {
   content: "";
   position: absolute;
-  top: 35.5%;
-  right: 0.5%;
+  top: 33.5%;
+  right: 7%;
   width: 226px;
   height: 226px;
   background: 1;
