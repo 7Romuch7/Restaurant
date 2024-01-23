@@ -3183,7 +3183,7 @@ html._touch .container__hero-arrow._active .hero-arrow {
   margin-left: 30px;
   margin-right: 80px;
   transform: translate(-200%, 0px);
-  transition: all 1s ease 2.5s;
+  transition: all 1s ease 1.5s;
 }
 .order-table__container._active {
   transform: translate(0px, 0px);
@@ -3524,7 +3524,7 @@ html._touch .container__hero-arrow._active .hero-arrow {
 }
 .section__specialties._active:before {
   transform: skewX(-45deg) translateX(600%);
-  transition: all 0.5s ease-in-out 3s;
+  transition: all 0.5s ease-in-out 2s;
 }
 .section__specialties._active._active > .slider, .section__specialties._active .swiper-pagination-bullet {
   transform: scale(1);
@@ -3967,7 +3967,7 @@ html._touch .container__hero-arrow._active .hero-arrow {
 .private-events__section._active::after, .private-events__section._active::before {
   opacity: 1;
   transform: rotate(360deg) scale(1);
-  transition: all 1s ease-in-out 2s;
+  transition: all 1s ease-in-out 1s;
 }
 .private-events__section::before {
   content: "";
@@ -4126,7 +4126,7 @@ html._touch .container__hero-arrow._active .hero-arrow {
 }
 ._right-card._active::after {
   top: calc(100% + 150px);
-  transition: all 1s ease-in-out 3s;
+  transition: all 1s ease-in-out 2s;
 }
 
 .discription__title {
