@@ -4329,6 +4329,9 @@ html._touch .container__hero-arrow._active .hero-arrow {
 .contacts__form-info {
   display: flex;
   width: 100%;
+   @media (max-width: 478.98px) {
+     flex-direction: column;
+   }
 }
 .contacts__form-data {
   position: relative;
@@ -4354,18 +4357,17 @@ html._touch .container__hero-arrow._active .hero-arrow {
     flex: 0 0 32%;
   }
 }
-@media (max-width: 468px) {
+@media (max-width: 478.98px) {
   .contacts__form-data {
-    flex: 0 0 31.8%;
-  }
-}
-@media (max-width: 400px) {
-  .contacts__form-data {
-    flex: 0 0 31.3%;
+    flex: 0 0 100%;
   }
 }
 .contacts__form-data + .contacts__form-data {
   margin-left: 10px;
+     @media (max-width: 478.98px) {
+	margin-left: 0;
+	margin-top: 15px;
+     }
 }
 .contacts__form-input {
   width: 100%;
