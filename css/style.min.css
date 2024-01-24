@@ -4242,11 +4242,6 @@ html._touch .container__hero-arrow._active .hero-arrow {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
-@media (max-width: 392px) {
-  .photo-gallery__img {
-    width: 300px;
-    height: 300px;
-  }
 }
 
 .section__contacts {
