@@ -3111,6 +3111,7 @@ html._touch .container__hero-arrow._active .hero-arrow {
   filter: drop-shadow(0px 0px 50px #000);
   border-radius: 3px;
   margin-left: 95px;
+  opacity: 0;
 }
 @media (max-width: 1260px) {
   .img__our-team {
