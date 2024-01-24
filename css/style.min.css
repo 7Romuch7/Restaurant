@@ -4228,15 +4228,13 @@ html._touch .container__hero-arrow._active .hero-arrow {
 }
 
 .photo__gallery-item {
-  display: block;
-}
-@media (max-width: 1320px) {
-  .photo__gallery-item {
-    margin: 10px;
-  }
+  flex: 0 1 25%;
 }
 
 .photo-gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: all 0.5s ease-out;
   transform: scale(1);
 }
