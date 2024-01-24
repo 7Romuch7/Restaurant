@@ -4219,16 +4219,16 @@ html._touch .container__hero-arrow._active .hero-arrow {
 
 .section__photo-gallery {
   display: flex;
+  flex-wrap: wrap;
 }
-@media (max-width: 1320px) {
-  .section__photo-gallery {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
 .photo__gallery-item {
   flex: 0 1 25%;
+     @media (max-width: 768px) {
+	 flex: 0 1 50%;    
+     }
+     @media (max-width: 350px) {
+	 flex: 0 0 100%;
+     }
 }
 
 .photo-gallery__img {
